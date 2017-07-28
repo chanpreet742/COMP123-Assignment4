@@ -37,6 +37,12 @@ namespace COMP123_Assignment4
         {
             this._type = type;
         }
+        /// <summary>
+        /// This is the HasMoons() method.
+        /// It returns true value if the MoonCount is greater than zero
+        /// else returns the false value.
+        /// </summary>
+        /// <returns></returns>
         public bool HasMoons()
         {
             if (MoonCount > 0)
@@ -48,6 +54,12 @@ namespace COMP123_Assignment4
                 return false;
             
         }
+        /// <summary>
+        /// This is the HasRings() method.
+        /// It returns true value if the RingCount is greater than zero
+        /// else returns false value.
+        /// </summary>
+        /// <returns></returns>
         public bool HasRings()
         {
             if (RingCount > 0)
