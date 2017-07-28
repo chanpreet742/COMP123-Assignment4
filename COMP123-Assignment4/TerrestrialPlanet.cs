@@ -9,6 +9,7 @@ using System.Threading.Tasks;
  * Date: July 28, 2017
  * Description: This is a class called 'GiantPlanet' which is a subclass of the 'Planet' abstract class.
  * Version: 0.2 - Implemented the HasMoons() and Habitable(() methods.
+ * Link: https://github.com/chanpreet742/COMP123-Assignment4 
  */
 namespace COMP123_Assignment4
 {

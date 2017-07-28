@@ -8,7 +8,8 @@ using System.Threading.Tasks;
  * Student Number - 300932732
  * Date: July 28, 2017
  * Description: This is the IHabitable Interface.
- * Version: 0.1 - 
+ * Version: 0.1 - Created interface.
+ * Link: https://github.com/chanpreet742/COMP123-Assignment4 
  */
 namespace COMP123_Assignment4
 {

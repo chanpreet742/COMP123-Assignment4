@@ -8,7 +8,8 @@ using System.Threading.Tasks;
  * Student Number - 300932732
  * Date: July 28, 2017
  * Description: This is a class called 'GiantPlanet' which is a subclass of the 'Planet' abstract class.
- * Version: 0.1 - 
+ * Version: 0.2 - Added WaitForKey method and declared objects.
+ * Link: https://github.com/chanpreet742/COMP123-Assignment4 
  */
 namespace COMP123_Assignment4
 {
