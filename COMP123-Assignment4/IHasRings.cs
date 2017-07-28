@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 namespace COMP123_Assignment4
 {
     /// <summary>
-    /// This is the IHasRings interface that
+    /// This is the IHasRings interface that returns a boolean value
     /// </summary>
     interface IHasRings
     {
