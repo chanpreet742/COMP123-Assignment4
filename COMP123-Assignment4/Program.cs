@@ -16,6 +16,21 @@ namespace COMP123_Assignment4
     {
         static void Main(string[] args)
         {
+            GiantPlanet planet1 = new GiantPlanet("Mars", 6779, 6.39 * Math.Pow(10, 23), "Gas");
+            TerrestrialPlanet planet2 = new TerrestrialPlanet("Mercury", 4879, 3.285 * Math.Pow(10, 23), false);
+
+            Console.WriteLine(planet1.ToString());
+            Console.WriteLine(planet2.ToString());
+
+            WaitForAnyKey();
+        }
+        /// <summary>
+        /// This method reads the console for any key press before the console is closed.
+        /// </summary>
+        public static void WaitForAnyKey()
+        {
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
         }
     }
 }
