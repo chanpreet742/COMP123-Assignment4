@@ -12,10 +12,7 @@ using System.Threading.Tasks;
  */
 namespace COMP123_Assignment4
 {
-    class Program
+    class TerrestrialPlanet
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }

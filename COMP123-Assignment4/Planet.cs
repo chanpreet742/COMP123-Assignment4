@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  * Date: July 28, 2017
  * Description: This is the abstract class Planet which other subclasses will
  * derive from.
- * Version: 0.1 - Made abstract class
+ * Version: 0.2 - Implemented the Tostring() method
  */
 namespace COMP123_Assignment4
 {
@@ -93,10 +93,30 @@ namespace COMP123_Assignment4
         }
 
         //CONSTRUCTORS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+        /// <summary>
+        /// This is the main constructor for the Planet abstract class.
+        /// It takes three arguments-
+        /// -name(string)
+        /// -diameter(double)
+        /// -mass(double)
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="diameter"></param>
+        /// <param name="mass"></param>
+        public Planet(string name,double diameter,double mass)
+        {
+            this._name = name;
+            this._diameter = diameter;
+            this._mass = mass;
+        }
+        /// <summary>
+        /// This is the ToSrtring() method of the Planet class
+        /// that displays the Name , Diameter,and Mass of the planet.
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
-            return string.Format(" {0} , {1} , {2} ", Name, Diameter, Mass);
+            return string.Format(" {0} - {1}Km - {2}Kg ", Name, Diameter, Mass);
         }
 
 

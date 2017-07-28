@@ -12,10 +12,7 @@ using System.Threading.Tasks;
  */
 namespace COMP123_Assignment4
 {
-    class Program
+    interface IHasMoons
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }

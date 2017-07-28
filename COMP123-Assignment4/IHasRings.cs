@@ -12,10 +12,7 @@ using System.Threading.Tasks;
  */
 namespace COMP123_Assignment4
 {
-    class Program
+    interface IHasRings
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }

@@ -12,10 +12,14 @@ using System.Threading.Tasks;
  */
 namespace COMP123_Assignment4
 {
-    class Program
+    // This is the GiantPlanet class
+
+    class GiantPlanet
     {
-        static void Main(string[] args)
-        {
-        }
+        // PRIVATE FIELDS (Instance Variables)
+        string _type;
+
+        // PUBLIC PROPERTIES 
+
     }
 }
