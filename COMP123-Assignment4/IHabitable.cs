@@ -7,12 +7,16 @@ using System.Threading.Tasks;
  * Name: Chanpreet Mudhar
  * Student Number - 300932732
  * Date: July 28, 2017
- * Description: This is a class called 'GiantPlanet' which is a subclass of the 'Planet' abstract class.
+ * Description: This is the IHabitable Interface.
  * Version: 0.1 - 
  */
 namespace COMP123_Assignment4
 {
+    /// <summary>
+    /// This is the IHabitable Interface that returns a boolean value.
+    /// </summary>
     interface IHabitable
     {
+        bool Habitable();
     }
 }
